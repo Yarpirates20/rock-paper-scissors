@@ -27,10 +27,6 @@ function computerPlay() {
 
 
 
-// function userPlay() {
-//    let userChoice = prompt('Rock? Paper? Or scissors?');
-//    return userChoice.toLowerCase();
-// }
 
 
 
@@ -78,20 +74,7 @@ function playRound(playerSelection, computerSelection) {
 }
 
 
-function game() {
 
-
-
-    let roundWinner = playRound();
-
-    if (roundWinner === 'player') {
-        playerScore++;
-    } else if (roundWinner === 'computer') {
-        computerScore++;
-    }
-
-
-}
 
 function showScore() {
     if (playerScore === 5) {
